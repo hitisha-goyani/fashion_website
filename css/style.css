@@ -1,0 +1,207 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    
+    
+}
+/*    container class start */
+    .container{
+        /* border:1px solid green; */
+        margin: auto;
+        max-width:1320px;
+    }
+    .container-fluid{
+        width: 100%;
+        /* margin:100px auto; */
+        /* border: 1px solid red; */
+    
+    }
+
+/* conatiner class end */
+
+
+
+/* border class start */
+
+    .border-red{
+            border:1px solid red;
+    }
+    .border-green{
+        border:1px solid green;
+        }
+    .border-blue{
+        border: 1px solid blue;
+    }
+
+    /* border class end */
+
+    .bg-gray{
+        background-color: gray;
+    }
+    .bg-gain{
+        background-color: gainsboro;
+    }
+    .row{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+.font{
+    font-size:35px;
+}
+.wd{
+    width: 100%;
+    
+
+}
+.f-c{
+    color: #0f0f0f;
+}
+.slick-dots li button:before {
+        width:60px;
+        height:60px;
+        color: black;
+}
+
+    /* height class start */
+        .h-200{
+                height: 200px;
+            }
+            .h-100{
+                height:100px;
+            }
+            .h-300{
+                height:300px;
+            }
+            .h-400{
+                height:400px;
+            }
+            .h-50{
+                height:50px;
+            }
+            .h-500{
+                height:500px;
+            }
+            .fit{
+                object-fit: cover;
+            }
+            .h-300{
+                height:300px;
+            }
+        /* height class end */
+
+
+/* padding class start */
+    .p-10{
+        padding:10px;
+    }
+    .p-20{
+        padding:20px;
+    }
+    .p-30{
+        padding:30px;
+    }
+
+    /* padding section end */
+    .redius-10{
+        border-radius: 10px;
+    }
+    .shadow{
+        box-shadow:1px 1px 4px black;
+    }
+    .m-60{
+        margin:50px 0px 50px 0px;
+    }
+    .t-text{
+        text-align:center;
+    }
+    .slick-next:before {
+        content: '➡️';
+    }
+    .slick-next:before {
+    
+        font-size: 50px;
+        color: black;
+    }
+    .b-black{
+        border:1px solid black;
+        font-weight: 600;
+        font-size:15px;
+    }
+    .bg-white{
+        background-color: white;
+    }
+    .h-30{
+        height:40px;
+    }
+    .w-40{
+        width:120px;
+    }
+.m-10{
+    margin: 10px;
+}
+button:hover{
+    background-color: black;
+    color:white;
+}
+.img-t
+{
+    transition: all 1s;
+}
+.img-t:hover
+{
+    transform:scale(1.1);
+    transform: translateY(-40px);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.d-flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+ .slick-dots li button:before {
+    font-size: 30px !important;
+ }
+    .radius-50{
+        border-radius: 100%;
+    }
+    .h-50{
+        height: 50px;
+    }
+    .f-gray{
+        color:grey;
+    }
+    .p{
+        padding:5px 0px;
+    }
+    .line{
+        line-height: 1.3;
+    }
+     .f-family{
+        font-family: "poppins";
+     } 
+     .bg-orange{
+        color: orange;
+     }
+     .m-right{
+        margin-right:5px ;
+     }
+     .radius-20{
+        border-radius: 20px;
+     }
+     .slick-next:before {
+        content: '→';
+        font-size: 20px !important;
+        color: black !important;
+      
+    }
+    .slick-prev:before {
+        content: '→';
+        font-size: 20px !important;
+        color: black !important;
+      
+    }
+    .h-600{
+        height:600px;
+    }
