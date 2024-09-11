@@ -71,7 +71,40 @@
         width: 100%;
     }
 }
+@media(max-width:667px){
+    .nav-h{
+        height: 50px;
+    }
+    .menu{
+        display: flex;
+    }
+    .d-col{
+        flex-direction: column;
+    }
+    .pos-rel{
+        position: absolute;
+        top:60px;
+        width: 96%;
+        left: 8px;
+    }
+    .justify-start{
+        justify-content: start;
+    }
 
+
+    .hide{
+      display:flex;
+    }
+
+    .input:checked + .hide{
+      
+       display: none;
+    }
+}  
+
+
+
+ 
 @media (max-width:575px){
     .w-xs-4{
         width: 25%;
