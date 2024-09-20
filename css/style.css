@@ -17,6 +17,9 @@
         /* border: 1px solid red; */
     
     }
+    .m-auto{
+        margin: auto;
+    }
 
 /* conatiner class end */
 
@@ -52,8 +55,9 @@
 }
 .wd{
     width: 100%;
-    
-
+}
+.w-90{
+    width:80%;
 }
 .f-c{
     color: #0f0f0f;
@@ -286,6 +290,7 @@ button:hover{
     font-weight: 700;
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
     color: rgb(157, 134, 97);
+  
 }
 .sticky{
     position:fixed;
@@ -294,6 +299,9 @@ button:hover{
     z-index: 999;
    
 }
+.top{
+    top:10px;
+}
 
 
 .menu{
@@ -301,6 +309,10 @@ button:hover{
     justify-content: center;
     align-items: center;
     display: none;
+    
+}
+.nav{
+    background-color: white;
 }
 .input{
     width: 40px;
@@ -319,7 +331,7 @@ button:hover{
 
 
 .nav-links a:hover{
-color:rgb(215, 189, 147);
+    color:rgb(215, 189, 147);
 }
 .h-200{
     height:80px;
@@ -327,4 +339,46 @@ color:rgb(215, 189, 147);
 .f-40{
     font-size:30px;
 }
+.img{
+    overflow: hidden;
+    position: relative;
 
+}
+.img:before{
+    content:"";
+    height:0px;
+    width:0px;
+    top:50%;
+    left:50%;
+    position: absolute;
+    transition: all 0.5s;
+    background-color:rgba(0,0,0,.3);
+    z-index:100;
+
+}
+.tran{
+    object-fit: cover;
+    width:100%;
+    transition:all 0.5s;
+}
+.tran:hover img{
+    scale:1.5;
+
+}
+.img:hover::before{
+    height: 100%;
+    width: 100%;
+    top:0%;
+    left:0%;
+
+}
+.img-a
+{
+    transition: all 0.5s;
+}
+.img-a:hover
+{
+    transform:scale(1);
+    transform: translate(-10px);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
