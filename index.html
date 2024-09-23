@@ -15,13 +15,15 @@
 <body>
 <!-----------------------------------------header section start------------------------------------------------------ -->
 <nav >
-    <div class=" container-fluid nav nav-h sticky">
+    <div class=" container-fluid nav sticky ">
+        
         <div class="logo">
-            <img  class="fit" src="imgs/logo.png"></img>
+             <img  class="fit" src="imgs/logo.png" width="70%"></img>    
         </div>
         <input type="checkbox" checked class="input" />
-        <div class="nav-items d-col pos-rel hide bg-white">
-            <div class="nav-links justify-start bg-orange" >
+    <div class="w-1 hide d-none">
+        <div class="nav-items  bg-white hide-nav">
+            <div class="nav-links justify-center bg-orange" >
                 <a href="">Home</a>
             </div>
             <div class="nav-links justify-start bg-orange">
@@ -34,6 +36,7 @@
                 <a href="">Contact</a>
             </div>
         </div>
+      </div>
         <div class=" p-20">
             <i class="ri-shopping-cart-line f-30 bg-orange"></i>
         </div>
@@ -43,7 +46,8 @@
        
         <div class="menu">
             <i class="ri-menu-line bg-orange f-40"></i>
-        </div>      
+        </div>   
+  
     </div>
 
 </nav>
@@ -688,6 +692,7 @@
   autoplay:true,
   autoplayspeed:1000,
   infinite: true,
+  arrows: false,
     dots: true,
   responsive: [
     {
@@ -696,21 +701,24 @@
         slidesToShow: 3,
         slidesToScroll: 3,
         infinite: true,
-        dots: true
+        dots: true,
+       
       }
     },
     {
       breakpoint: 600,
       settings: {
         slidesToShow: 2,
-        slidesToScroll: 2
+        slidesToScroll: 2,
+       
       }
     },
     {
       breakpoint: 480,
       settings: {
         slidesToShow: 1,
-        slidesToScroll: 1
+        slidesToScroll: 1,
+     
       }
     }
     // You can unslick at a given breakpoint now by adding:
@@ -758,6 +766,18 @@
   ]
 });
 </script>
+<script>
+    $('.menu').click(function(){
+        $('.hide').toggle();
+    })
+</script>
+
+<!-- <script>
+    $(".button-1").click(function(){
+       $(".hide-nav").slideToggle();
+   }) -->
+</script>
+
 
 </body>
 </html>
